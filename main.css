@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*body {
+    color: rgb(195, 203, 209);
+    background: linear-gradient(to right, rgb(32, 30, 30), #131212f6, rgb(32, 30, 30));
+
+        Acha que desse jeito ficaria melhor professor? kkkkkkkkk responde na avaliação
+}*/
+
+body {
+    background-color: rgb(32, 30, 30);
+    color: rgb(195, 203, 209);
+}
+
+form {
+    background-color: rgb(57, 57, 66);
+    max-width: 900px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 7px;
+    padding: 30px;
+    align-items: center;
+}
+
+input, button {
+    margin-right: 10px;
+    width: 45%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    
+}
+
+form button {
+    background-color: rgb(70, 180, 89);
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(4, 46, 20);
+    
+}
+
+form button:hover {
+    background-color: rgb(80, 204, 100);
+    cursor: pointer;
+}
+
+.btn-week {
+    width: 18%;
+    background-color: rgb(70, 180, 89);
+    font-size: 15px;
+    margin-top: 70px;
+}
+
+form p {
+    max-width: 700px;
+    width: auto;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+ul {
+    max-width: 1360px;
+    margin: 80px auto;
+    border: 1px solid white;
+    height: auto;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+div  {
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding-bottom: 13px;
+    font-size: 20px;
+}
+
+li {
+    padding: 30px;
+    border-bottom: 1px solid rgb(63, 62, 62);
+    font-size: 20px;
+    list-style: none;
+}
+
+p{
+    cursor: pointer;
+    padding: 10px;
+    max-width: 400px;
+    width: auto;
+}
+
+.btn-invisible {
+    background-color: rgba(240, 248, 255, 0);
+    padding: 0px;
+    color: rgb(195, 203, 209);
+}

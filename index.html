@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador tarefas</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Tarefas da Semana</h1>
+    </header>
+    <form>
+        <!--<select name="dias-semana" id="dias-semana">
+            <option value="Segunda">Segunda</option>
+            <option value="Terça">Terça</option>
+            <option value="Quarta">Quarta</option>
+            <option value="Quinta">Quinta</option>
+            <option value="Sexta">Sexta</option>
+        </select> -->
+        <input type="text" id="nome-tarefa" placeholder="Digite o nome da tarefa" required>
+        <button type="submit">Cadastrar</button>
+        <!--<button class="btn-week">Segunda</button>
+        <button class="btn-week">Terça</button>
+        <button class="btn-week">Quarta</button>
+        <button class="btn-week">Quinta</button>
+        <button class="btn-week">Sexta</button>-->
+        <p>OBS: De 2 cliques para a atividade ser marcada como concluída.</p>
+    </form>
+    <ul>
+        <div><h2>Programação do próximo dia</h2></div>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
