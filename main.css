@@ -107,3 +107,7 @@ p{
     padding: 0px;
     color: rgb(195, 203, 209);
 }
+
+.strike-through {
+    text-decoration: line-through;
+}
